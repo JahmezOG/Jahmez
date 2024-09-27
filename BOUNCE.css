@@ -1,0 +1,75 @@
+.form1{
+    border: solid rgb(99, 98, 98) 1px;
+    width: 700px;
+}
+.dont{
+    border: solid rgb(99, 98, 98) 1px;
+    width: 440px; 
+    margin-top: 10px;
+}
+
+.or2{
+    border: solid rgb(99, 98, 98) 1px;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+input{
+    width: 440px;
+    text-align: center;
+    padding: auto;
+}
+.input{
+    text-align: center;
+   
+}
+#text1{
+    padding: auto;
+    margin-bottom: 7px;
+
+}
+#password1{
+    margin-bottom: 10px;
+}
+#button{
+    color: rgb(254, 254, 255);
+    background-color: blue;
+    outline: none;
+    border: none;
+}
+.or{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    font-weight: bold;
+}
+.or::before{
+    position: absolute;
+    width: 37%;
+    background: gray;
+    height: 2px;
+    content: '';
+    top: 3`0%;
+    left: 0;
+   
+    border-radius: 50px;
+
+
+
+}
+.or::after{
+    position: absolute;
+    width: 37%;
+    background: gray;
+    height: 2px;
+    content: '';
+    top: 50%;
+    right:0;
+   
+    border-radius: 50px;
+
+
+
+}
